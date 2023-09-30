@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Huddle landing page with curved sections](https://your-solution-url.com)
-- Live Site URL: [Huddle landing page with curved sections Live Site](https://your-live-site-url.com)
+- Solution URL: [Huddle landing page with curved sections](https://www.frontendmentor.io/solutions/huddle-landing-page-with-curved-sections-HYEWLBJ5qw)
+- Live Site URL: [Huddle landing page with curved sections Live Site](https://mjspitta.github.io/Huddle_landing_page_with_curved_sections/)
 
 ## My process
 
