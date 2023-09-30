@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(192, 100%, 9%);
+}
+
+p {
+    font-weight: 400;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+.nav-bar {
+    height: 15%;
+    width: 90%;
+    margin: 2rem auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar .logo {
+    width: 20%;
+}
+
+.nav-bar a {
+    border: 2px solid hsl(322, 100%, 66%);
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    color: hsl(322, 100%, 66%);
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    border-color: hsl(321, 100%, 78%);
+    color: hsl(321, 100%, 78%);
+    transition: all 0.5s ease;
+}
+
+.h-body {
+    height: 85%;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h-body h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.8rem;
+}
+
+.h-body p {
+    width: 40%;
+    text-align: center;
+    margin: 1.5rem 0 2rem;
+}
+
+.h-body a {
+    background-color: hsl(322, 100%, 66%);
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    color: hsl(207, 100%, 98%);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.h-body a:hover {
+    background-color: hsl(321, 100%, 78%);
+    transition: all 0.5s ease;
+}
+
+main {
+    width: 100%;
+}
+
+.main-img {
+    width: 70%;
+    margin: 0 auto 2rem;
+}
+
+.sm-img {
+    width: 100%;
+}
+
+.stat-container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-container h2 {
+    font-weight: 700;
+    font-size: 6rem;
+}
+
+.stat-container p {
+    text-align: center;
+    color: grey;
+    font-size: 1.5rem;
+}
+
+.content {
+    margin-top: 15rem;
+}
+
+.content-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem;
+}
+
+.gt-left, .fc-right, .yu-left {
+    width: 45%;
+}
+
+.gt-left h3, .fc-right h3, .yu-left h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+.gt-left p, .fc-right p, .yu-left p {
+    font-weight: 400;
+    font-size: 0.95rem;
+}
+
+.gt-right, .fc-left, .yu-right {
+    width: 40%;
+}
+
+.gt-right img, .fc-left img, .yu-right img {
+    width: 100%;
+}
+
+.bgtop1 {
+    height: 10rem;
+    background-image: url(./images/bg-section-top-desktop-1.svg);
+    background-repeat: no-repeat;
+}
+
+.grow-together, .your-users {
+    background-color: hsl(207, 100%, 98%);
+}
+
+.flowing-conversations {
+    padding: 5rem 10rem;
+}
+
+.main-bottom {
+    text-align: center;
+    padding: 10rem;
+}
+
+.main-bottom h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.main-bottom a {
+    background-color: hsl(322, 100%, 66%);
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    color: hsl(207, 100%, 98%);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.main-bottom a:hover {
+    background-color: hsl(321, 100%, 78%);
+    transition: all 0.5s ease;
+}
+
+.bgbottom1 {
+    height: 10rem;
+    background-image: url(./images/bg-section-bottom-desktop-1.svg);
+    background-repeat: no-repeat;
+}
+
+.bgtop2 {
+    height: 9rem;
+    background-image: url(./images/bg-section-top-desktop-2.svg);
+    background-repeat: no-repeat;
+}
+
+.bgbottom2 {
+    height: 10rem;
+    background-image: url(./images/bg-section-bottom-desktop-2.svg);
+    background-repeat: no-repeat;
+}
+
+footer {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.bgfootertop {
+    height: 9.5rem;
+    background-image: url(./images/bg-footer-top-desktop.svg);
+    background-repeat: no-repeat;
+}
+
+.f-container {
+    color: hsl(207, 100%, 98%);
+    background-color: hsl(192, 100%, 9%);
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-left {
+    width: 30%;
+}
+
+.foot-left img {
+    margin-bottom: 1rem;
+}
+
+.lorem {
+    line-height: 1.7rem;
+}
+
+.contact {
+    margin-top: 2rem;
+}
+
+.phone, .email {
+    display: flex;
+    padding: 0 0 0.5rem;
+}
+
+.phone img, .email img {
+    width: 1.2rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2rem;
+    margin-top: 0.2rem;
+}
+
+.socials {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.socials i:hover {
+    color: hsl(192, 100%, 50%);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.foot-right {
+    width: 50%;
+}
+
+.foot-right h4 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 1rem 0 2rem;
+}
+
+.foot-right p {
+    width: 60%;
+    line-height: 1.7rem;
+    margin-bottom: 3rem;
+}
+
+.subscribe {
+    width: 100%;
+    display: flex;
+}
+
+.subscribe .sub-email {
+    width: 56%;
+    height: 3rem;
+    margin-right: 3rem;
+    border-radius: 0.5rem;
+}
+
+.subscribe .sub-btn {
+    width: 30%;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 0.5rem;
+    color: hsl(207, 100%, 98%);
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+}
+
+.subscribe .sub-btn:hover {
+    background-color: hsl(321, 100%, 78%);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 375px) {
+    .nav-bar {
+        height: 10%;
+        margin-bottom: 5rem;
+    }
+    .nav-bar .logo {
+        width: 30%;
+    }
+    .nav-bar a {
+        padding: 0.3rem 1.5rem;
+        font-size: 0.8rem;
+    }
+    .h-body {
+        width: 85%;
+        height: auto;
+        display: block;
+        text-align: center;
+    }
+    .h-body h1 {
+        font-size: 1.7rem;
+        line-height: 1.5;
+    }
+    .h-body p {
+        width: 100%;
+        margin-bottom: 6rem;
+    }
+    .main-img {
+        width: 85%;
+        margin-bottom: 7rem;
+    }
+    .stat-container {
+        width: 70%;
+        display: block;
+    }
+    .stat-container h2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+    .stat-container p {
+        font-size: 0.9rem;
+    }
+    .communities {
+        margin-bottom: 5rem;
+    }
+    .content {
+        margin-top: 1rem;
+    }
+    .content-container {
+        flex-direction: column-reverse;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .grow-together, .your-users {
+        padding: 3rem 0;
+    }
+    .flowing-conversations {
+        flex-direction: column;
+    }
+    .gt-left, .fc-right, .yu-left, .gt-right, .fc-left, .yu-right {
+        width: 100%;
+        padding: 2rem;
+    }
+    .gt-left h3, .fc-right h3, .yu-left h3 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    .gt-left p, .fc-right p, .yu-left p {
+        font-size: 0.85rem;
+        line-height: 1.5;
+    }
+    .bgtop1 {
+        background-image: url(./images/bg-section-top-mobile-1.svg);
+        height: 6rem;
+        margin-top: 5rem;
+    }
+    .bgbottom1 {
+        background-image: url(./images/bg-section-bottom-mobile-1.svg);
+        height: 6rem;
+        margin-bottom: 5rem;
+    }
+    .bgtop2 {
+        background-image: url(./images/bg-section-top-mobile-2.svg);
+        height: 6rem;
+        margin-top: 5rem;
+    }
+    .bgbottom2 {
+        background-image: url(./images/bg-section-bottom-mobile-2.svg);
+        height: 6rem;
+        margin-bottom: 5rem;
+    }
+    .main-bottom {
+        padding: 0;
+    }
+    .main-bottom h3 {
+        font-size: 1.7rem;
+    }
+    .main-bottom a {
+        padding: 0.7rem 3rem;
+        font-size: 0.8rem;
+    }
+    footer {
+        margin-top: 15rem;
+    }
+    .bgfootertop {
+        height: 3rem;
+        background-image: url(./images/bg-footer-top-mobile.svg);
+    }
+    .f-container {
+        flex-direction: column-reverse;
+        padding: 5rem 7.5%;
+    }
+    .foot-left, .foot-right {
+        width: 100%;
+    }
+    .foot-right h4 {
+        font-size: 1.2rem;
+    }
+    .foot-right p {
+        width: 100%;
+        margin-bottom: 2rem;
+        font-size: 0.95rem;
+    }
+    .subscribe {
+        flex-direction: column;
+    }
+    .subscribe .sub-email {
+        width: 100%;
+    }
+    .subscribe .sub-btn {
+        width: 50%;
+        align-self: flex-end;
+        padding: 1rem 3rem;
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+    }
+    .foot-logo {
+        width: 60%;
+    }
+    .phone img, .email img {
+        width: 1rem;
+        margin-right: 1rem;
+    }
+    .phone p, .email p, .foot-left p:first-child {
+        font-size: 0.9rem;
+    }
+    .socials {
+        margin-top: 3rem;
+    }
+}
